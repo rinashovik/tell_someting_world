@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+    font-family:'Tahoma', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #222;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    overflow-x: hidden;
+    display: block;
+    margin: 8px;
+  }
+  header {
+    background-color: yellow;
+    position: relative;
+    height: 200px;
+    width: 100vw; 
+    margin: 0px;
+    padding: 0px;
+  }
+  #mainHeading {
+        color: red;
+        text-align: center;
+        margin: 0px;
+        padding-top: 20px;
+  }
+  p {  
+    text-align: justify;
+    margin: 15px 0px;
+  } 
+  .funParagraph {
+    font-size: x-large;
+    color: green;
+  }
+  #testP {
+    font-weight: 400px;
+  }
+  
+  #testP:hover {
+    background-color: yellowgreen;
+    background-color: yellow;
+  }
+  
+  
+  #sub-title {
+    color: rgb(36, 10, 142);
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 600px;
+    text-align: center;
+  }
+  main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  margin: 0px 0px;
+  padding: 10px 160px 20px; 
+    box-sizing: border-box;
+  }
+  div {
+  position: relative;
+  margin: 0px;
+  padding: 10px 0px;  
+  box-sizing: border-box; 
+  }
+  h1 {
+    font-size: 3.5rem;
+    font-family:'Satisfy', cursive;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: x-large;
+    text-transform: uppercase;
+  }
+  h3 {
+    color: chocolate;
+    font-size: 1.5rem;
+  font-family: 'Satisfy', cursive;
+    font-weight: 600;
+  }
+  h4 {
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #4a6903;
+  }
+  .list-item {
+    color: #0f13f1;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  footer {
+    background-color: rgb(121, 118, 118);
+    font-family: 'Satisfy', cursive;
+    position: relative;
+    height: 4rem;
+    width: 100vw;
+    margin: 0px;
+    padding: 20px;
+  }
+   #intro {
+  background-color: rgb(154, 205, 50);
+    color: rgb(65, 3, 3);
+    font-size: larger;
+    font-weight: 600px;
+    padding: auto;
+  } 
+  p#testP::first-letter {
+    color: #ff9100e7;
+    font-size: 200%;
+  }
+  .image-culture {
+    position: relative;
+    width: auto;
+    margin-right: auto;
+    display: flexbox;
+  }
+  .image-culture-left {
+    float: left;
+    display: table;
+  margin-right: 30px;
+  }
+  .image-culture-right {
+    display: table;
+    float: right;
+  margin-left: 30px;
+  }
+  .image-food {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        margin-left:auto;
+        margin-right: auto;
+        display: flexbox;
+    
+    } 
+  img.right {
+    height: auto;
+    width: 400px;
+    display: table-column;
+  float: right;
+  margin-left: 50px;
+  }
+  img.left {
+    height: auto;
+    width: 400px;	
+  float: left;
+  margin-right: 50px;
+  } 
+  hr { 
+  height: .8rem;
+  background-color: #F1C40F;
+  border: none;
+  margin: 0px; 
+  }
